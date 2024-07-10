@@ -1,10 +1,9 @@
-first_list = [1, 2, 3, 4, 5, 6]
-#first_list = [1, 2, 3]
-#first_list = [1, 2, 3, 4, 5]
-#first_list = [1]
-#first_list = []
+lst = [1, 2, 3, 4, 5, 6]
+#lst = [1, 2, 3]
+#lst = [1, 2, 3, 4, 5]
+#lst = [1]
+#lst = []
 
-lst = first_list[:]
 is_odd = len(lst) % 2
 if len(lst)>1 and is_odd > 0:
     lst[0] = lst[0:len(lst) // 2 + 1]
